@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Samsung Galaxy S22",
+            "price": 1400,
+            "description": "L'ultima Samsung Galaxy"
+        },
+        {
+            "id": 2,
+            "name": "OnePlus",
+            "price": 1200,
+            "description": "Il Flagship di OnePlus"
+        },
+        {
+            "id": 3,
+            "name": "IPhone 14",
+            "price": 1500,
+            "description": "Il modello di punta di Apple IPhone"
+        }
+    ]
+}

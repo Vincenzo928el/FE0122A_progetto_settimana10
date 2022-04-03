@@ -1,0 +1,21 @@
+<div>
+    <ng-container *ngIf="productSelected;else elseTemplate">
+
+        <div class="row g2 m-4 justify-content-center">
+            <div class="col-6">
+                <h3 class="card-title">{{productSelected.name}}</h3>
+                <p class="card-text">{{productSelected.description}}</p>
+                <p class="card-subtitle mb-2 text-muted">€ {{productSelected.price}}</p>
+                <button class="btn btn-outline-primary" type="button" (click)="aggiungiProdottoAlCarrello()">Aggiungi al
+                    carrello</button>
+            </div>
+        </div>
+    </ng-container>
+    <ng-template #elseTemplate>
+        <div class="d-flex justify-content-center mt-4">
+            <div class="spinner-border text-info" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </ng-template>
+</div>
